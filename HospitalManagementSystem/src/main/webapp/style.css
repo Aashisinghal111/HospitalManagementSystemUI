@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+label {
+	width: 220px;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+}
+.card {
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+	background-color: rgba(245, 245, 245, 1);
+	opacity: .7;
+}
+.bg {
+	background-image:
+		url("https://images.pexels.com/photos/3985163/pexels-photo-3985163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
